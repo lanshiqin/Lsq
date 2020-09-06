@@ -27,6 +27,12 @@ dependencies {
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.13'
+
+    // https://mvnrepository.com/artifact/org.antlr/antlr4
+    compile group: 'org.antlr', name: 'antlr4', version: '4.8'
+
+    // https://mvnrepository.com/artifact/org.antlr/antlr4-runtime
+    compile group: 'org.antlr', name: 'antlr4-runtime', version: '4.8'
 }
 
 application {
